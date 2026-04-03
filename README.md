@@ -35,3 +35,13 @@ A simple and robust RESTful API built with Node.js, Express, and MongoDB for man
    npm run dev
    ```
    The server will start on `http://localhost:5000`.
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `POST` | `/api/users` | Creates a new user in the database |
+| `GET` | `/api/users` | Fetches a list of all users |
+| `GET` | `/api/users/:id` | Fetches a specific user's details by their `_id` |
+| `PUT` | `/api/users/:id` | Updates an existing user's details by their `_id` |
+| `DELETE` | `/api/users/:id` | Permanently deletes a specific user from the database |
